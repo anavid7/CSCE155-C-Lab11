@@ -4,8 +4,8 @@ CC = gcc
 
 # XML libraries
 XML_INCLUDE = -I/usr/include/libxml2
-XML_LIB = -lxml2 -lz -lm
-CURL_LIB = -lcurl
+XML_LIB = -lxml2 -lz -lm -Wall -g
+CURL_LIB = -lcurl -Wall -g
 
 #direct compilation: gcc `xml2-config --cflags` unlRSS.c `xml2-config --libs`
 

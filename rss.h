@@ -1,9 +1,9 @@
-typedef struct {
-  char *firstName;
-  char *lastName;
-  int nuid;
-  struct tm birthDate;
-} Student;
+// typedef struct {
+//   char *firstName;
+//   char *lastName;
+//   int nuid;
+//   struct tm birthDate;
+// } Student;
 
 
 
