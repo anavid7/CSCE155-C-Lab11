@@ -1,6 +1,17 @@
+typedef struct {
+  char *firstName;
+  char *lastName;
+  int nuid;
+  struct tm birthDate;
+} Student;
+
+
 
 typedef struct {
-  // TODO: define your structure here
+char* title;
+char* link;
+char* date;
+char* description;
 } Rss;
 
 /**

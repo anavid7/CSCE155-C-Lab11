@@ -32,7 +32,7 @@ Student *createStudent(const char *firstName, const char *lastName, int nuid,
 void printStudent(Student *student);
 
 int main(int argc, char **argv) {
-  Student *me = createStudent("Joe", "Smith", 140602, "07/30/1980");
+  Student *me = createStudent("David", "Ryan", 47810715, "05/29/2000");
   printStudent(me);
 }
 
